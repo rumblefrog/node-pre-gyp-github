@@ -25,16 +25,16 @@
     "releases"
   ],
   "dependencies": {
-    "@octokit/rest": "^15.9.5",
-    "commander": "^2.17.0",
-    "mime-types": "^2.1.19"
+    "@octokit/rest": "^18.0.3",
+    "commander": "^6.0.0",
+    "mime-types": "^2.1.27"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "coveralls": "^3.0.2",
-    "mocha": "^5.2.0",
-    "nyc": "^12.0.2",
-    "sinon": "^6.1.4"
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.3"
   },
   "author": "Bill Christo",
   "license": "MIT",

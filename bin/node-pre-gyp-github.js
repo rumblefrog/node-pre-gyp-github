@@ -10,7 +10,7 @@ program
 	.option("-s, --silent", "turns verbose messages off")
 	.action(function(cmd, options){
 		var opts = {},
-			x = new module();
+		x = new module();
 		opts.draft = options.release ? false : true;
 		opts.verbose = options.silent ? false : true;
 		x.publish(opts);
