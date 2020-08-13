@@ -1,6 +1,6 @@
 {
   "name": "node-pre-gyp-github",
-  "version": "1.4.3",
+  "version": "2.0.0-rc-1",
   "description": "A node-pre-gyp module which provides the ability to publish to GitHub releases.",
   "bin": "./bin/node-pre-gyp-github.js",
   "main": "index.js",
@@ -26,6 +26,7 @@
   ],
   "dependencies": {
     "@octokit/rest": "^18.0.3",
+    "chai-as-promised": "^7.1.1",
     "commander": "^6.0.0",
     "mime-types": "^2.1.27"
   },
