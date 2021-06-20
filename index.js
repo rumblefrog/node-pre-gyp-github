@@ -78,7 +78,7 @@ class NodePreGypGithub {
 			'owner': this.owner,
 			'repo': this.repo,
 			'tag_name': this.package_json.version,
-			'target_commitish': 'master',
+			'target_commitish': 'main',
 			'name': 'v' + this.package_json.version,
 			'body': this.package_json.name + ' ' + this.package_json.version,
 			'draft': true,
